@@ -1,0 +1,391 @@
+.first{
+    background-color:greenyellow;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.header1{
+    display: flex;
+    gap: 30px; 
+    padding:10px;
+    margin-left: 100px;
+    margin-bottom: -2px;
+}
+.header2{
+    color: black;
+    padding-left: 1150px;
+    margin-bottom: -2px;
+}
+.second{
+    display: flex;
+}
+.header3{
+    display: flex;
+    padding-left: 120px;
+    padding-top: 15px; 
+}
+.kc{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 19px;
+    padding-left: 15px;
+}
+.header4{
+    width: 60px; /* Adjust size */
+    height: 60px;
+    border-radius: 15px;
+    object-fit: cover; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.header5{
+    display: flex;
+    gap: 50px;
+    margin-left: 750px;
+    align-items: center;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-text-stroke: -1px black
+}
+.three{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.three::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height:100%;
+    background: rgba(0, 0, 0, 0.5); /* example background */
+    z-index: 1;
+}
+.header6{
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+}
+.header7{
+    position: absolute;
+    top:45%;
+    left: 48%;
+    font-size: xx-large;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.button{
+    background-color: greenyellow;
+    height: 40px;
+    width: 150px;
+    margin-left: 250px;
+}
+.header8{
+    text-decoration: none;
+    color:darkred;
+    font-size: medium;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+.four{
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+}
+.five{
+    background-color: greenyellow;
+    height: 450px;
+    display: flex;
+}
+.header9{
+    background-color: white;
+    height: 350px;
+    width: 750px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.b{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: x-large;
+}
+.header10{
+    display: flex;
+    gap: 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: #36454f;
+}
+.von{
+    display: flex;
+    gap: 10px;
+}
+.king{
+    width: 100%;
+    height: 380px;
+    display: block;
+    object-fit: cover;
+}
+.kesh{
+    position: absolute;
+    top:45%;
+    left: 48%;
+    font-size: xx-large;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding-top: 35px;   
+}
+.con{
+    background-color: greenyellow;
+    height: 40px;
+    width: 150px;
+    margin-left: 350px;
+}
+.edit{
+    display: flex;
+    gap: 30px; 
+}
+.post{
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+.malone{
+    position: absolute;
+    left: 48%;
+    bottom: -20%;
+    font-size: xx-large;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.empty{
+    width: 350px;
+    height: 400px;
+}
+.suicidal{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: larger;
+}
+.kai{
+    font-weight: 800;
+    color: greenyellow;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .div, .charles {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inverter {
+    width: 100%;
+    height: auto;
+  }
+
+  .fiks {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .charles > div:first-child {
+    margin-bottom: 30px;
+  }
+}
+
+.charles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 300px;
+  padding: 80px 20px 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 550px;
+  flex-wrap: wrap;
+}
+
+.charles > div:first-child {
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+.charles h1 {
+    margin-bottom: 20px;
+}
+
+.fiks {
+    background-color: greenyellow;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ige{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.input{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+.hey{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    height: 120px;
+    resize: none;
+}
+.button{
+    width: 150px;
+    background-color: #ff5a00; /* Orange button */
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #e64a00;
+}
+.apart{
+    background-color: black;
+    height: 1px;
+    opacity: 70%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.che{
+    margin-bottom: 40px;
+}
+.inverter{
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  margin-left: 50px;
+}
+.otherside{
+    padding-left: 200px;
+   padding: 60px 100px;
+  line-height: 1.6;
+  text-align: center;
+  font-size: larger;
+}
+.others-section {
+  padding: 40px 100px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.others-section .other-list {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.div{  
+  display: flex;
+  gap: 250px;
+  margin: 60px 100px;
+  align-items: center;
+  font-size: larger;
+}
+.div h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.eminem{
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.faq-container h1 {
+  text-align: center;
+  color: #004c8c;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #004c8c;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #007bff;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.dealer{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
